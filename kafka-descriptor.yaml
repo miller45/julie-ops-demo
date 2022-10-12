@@ -1,0 +1,16 @@
+---
+context: "gaming  software"
+projects:
+  - name: "bananagame"
+    topics:
+      - name: "stock"
+      - name: "players"
+      - name: "gamesessions"
+  - name: "cherrygame"
+    topics:
+      - name: "stock"
+      - name: "players"
+      - name: "boards"
+  - name: "etl"
+    topics:
+      - name: "billing"
