@@ -11,6 +11,10 @@ projects:
       - name: "stock"
       - name: "players"
       - name: "boards"
+  - name: "apple"
+    topics:
+      - name: "players"
+      - name: "sessions"
   - name: "etl"
     topics:
       - name: "billing"
