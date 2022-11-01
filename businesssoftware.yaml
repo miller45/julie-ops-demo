@@ -6,6 +6,11 @@ projects:
       - name: "stock"
       - name: "players"
       - name: "gamesessions"
+    connectors:
+      artifacts:
+        - path: "connectors/banana-file-sink.json"
+          server: "connect"
+          name: "banana-file-sink"
   - name: "cherrygame"
     topics:
       - name: "stock"
