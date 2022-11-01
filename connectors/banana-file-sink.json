@@ -1,0 +1,12 @@
+{
+  "name": "banana-file-sink",
+  "config": {
+    "connector.class": "org.apache.kafka.connect.file.FileStreamSinkConnector",
+    "tasks.max": "1",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "false",
+    "topics":"businesssoftware_banana_gamesessions",
+    "file":"/tmp/bananas.json"
+  }
+}
