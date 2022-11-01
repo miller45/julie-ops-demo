@@ -1,0 +1,20 @@
+---
+context: "businesssoftware"
+projects:
+  - name: "bananagame"
+    topics:
+      - name: "stock"
+      - name: "players"
+      - name: "gamesessions"
+  - name: "cherrygame"
+    topics:
+      - name: "stock"
+      - name: "players"
+      - name: "boards"
+  - name: "apple"
+    topics:
+      - name: "players"
+      - name: "sessions"
+  - name: "etl"
+    topics:
+      - name: "billing"
