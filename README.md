@@ -2,7 +2,7 @@
 Demonstration repo for explaing julie ops for kafka to the team
 
 execute the following docker with julieops
-
+```
 BROKERS=opmv:9902; \
 docker run -t -i \
 -v $PWD/:/example \
@@ -12,7 +12,7 @@ julie-ops-cli.sh \
 --clientConfig /example/juliops-rules.properties \
 --overridingClientConfig /example/localkafka.properties \
 --topology /example/businesssoftware.yaml
-
+```
 
 Important example for configuring kafka-connect..put each kafka-connect server in you .properties file.
 The items are numbered 0..n. After the = follows a name that can be used in the topology file (e.g. cloud-connect). The
