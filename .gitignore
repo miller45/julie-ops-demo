@@ -3,3 +3,8 @@ mycloudkafka.properties
 localkafkaconnect.properties
 .idea
 logs
+temp
+.terraform
+.terraform.lock.hcl
+*.tfplan
+*.tfstate
