@@ -31,7 +31,6 @@ variable "kafka_cluster_id" {
   type        = string
 }
 
-
 variable "az_subscription_id" {
   type = string
 }
